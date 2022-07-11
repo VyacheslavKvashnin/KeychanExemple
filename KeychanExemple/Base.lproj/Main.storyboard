@@ -39,6 +39,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Button">
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="saveData" destination="BYZ-38-t0r" eventType="touchUpInside" id="YMj-G0-a6E"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -52,6 +55,10 @@
                             <constraint firstItem="Z0Y-xp-BYS" firstAttribute="top" secondItem="VHa-Mi-cMS" secondAttribute="bottom" constant="53" id="ueN-yk-mhR"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="loginTF" destination="9XK-12-JwM" id="Evb-Oc-EBS"/>
+                        <outlet property="passTF" destination="VHa-Mi-cMS" id="Xiu-DQ-RjE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
