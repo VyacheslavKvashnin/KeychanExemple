@@ -111,6 +111,8 @@
 				Base,
 			);
 			mainGroup = BDD1A59B287C9DCF008B69E0;
+			packageReferences = (
+			);
 			productRefGroup = BDD1A5A5287C9DCF008B69E0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -306,7 +308,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -334,7 +336,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
