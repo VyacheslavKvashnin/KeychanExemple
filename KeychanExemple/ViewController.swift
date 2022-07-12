@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Locksmith
 
 class ViewController: UIViewController {
     
@@ -14,11 +15,18 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-       
+        let dictionary = Locksmith.loadDataForUserAccount(userAccount: "MyLogin")
+        print(dictionary ?? "")
     }
     
     @IBAction func saveData() {
-        
+        if let login = loginTF.text, let pass = passTF.text {
+            do {
+                try Locksmith.saveData(data: ["login": login, "pass": pass], forUserAccount: "MyLogin")
+            } catch {
+                print("Unsafe")
+            }
+        }
     }
 }
 

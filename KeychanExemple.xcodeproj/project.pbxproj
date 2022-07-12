@@ -13,9 +13,11 @@
 		BDD1A5AF287C9DCF008B69E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDD1A5AD287C9DCF008B69E0 /* Main.storyboard */; };
 		BDD1A5B1287C9DD1008B69E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD1A5B0287C9DD1008B69E0 /* Assets.xcassets */; };
 		BDD1A5B4287C9DD1008B69E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDD1A5B2287C9DD1008B69E0 /* LaunchScreen.storyboard */; };
+		C955DFEEB74008087A6E3B71 /* Pods_KeychanExemple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FCD86C1FDB93C81059C86B /* Pods_KeychanExemple.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04FCD86C1FDB93C81059C86B /* Pods_KeychanExemple.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeychanExemple.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDD1A5A4287C9DCF008B69E0 /* KeychanExemple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeychanExemple.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDD1A5A7287C9DCF008B69E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDD1A5A9287C9DCF008B69E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		BDD1A5B0287C9DD1008B69E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDD1A5B3287C9DD1008B69E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDD1A5B5287C9DD1008B69E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAC9EFAD7D1DE6C8DCF52C3B /* Pods-KeychanExemple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeychanExemple.debug.xcconfig"; path = "Target Support Files/Pods-KeychanExemple/Pods-KeychanExemple.debug.xcconfig"; sourceTree = "<group>"; };
+		FC4F9A0AD912857E6671A4DC /* Pods-KeychanExemple.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeychanExemple.release.xcconfig"; path = "Target Support Files/Pods-KeychanExemple/Pods-KeychanExemple.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C955DFEEB74008087A6E3B71 /* Pods_KeychanExemple.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				BDD1A5A6287C9DCF008B69E0 /* KeychanExemple */,
 				BDD1A5A5287C9DCF008B69E0 /* Products */,
+				E0AEFAE66AB2FC215F1BF439 /* Pods */,
+				F15574618402822DDAA0FD9B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +74,24 @@
 			path = KeychanExemple;
 			sourceTree = "<group>";
 		};
+		E0AEFAE66AB2FC215F1BF439 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EAC9EFAD7D1DE6C8DCF52C3B /* Pods-KeychanExemple.debug.xcconfig */,
+				FC4F9A0AD912857E6671A4DC /* Pods-KeychanExemple.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F15574618402822DDAA0FD9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04FCD86C1FDB93C81059C86B /* Pods_KeychanExemple.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BDD1A5B8287C9DD1008B69E0 /* Build configuration list for PBXNativeTarget "KeychanExemple" */;
 			buildPhases = (
+				0A75190453F3A929A4F9E19E /* [CP] Check Pods Manifest.lock */,
 				BDD1A5A0287C9DCF008B69E0 /* Sources */,
 				BDD1A5A1287C9DCF008B69E0 /* Frameworks */,
 				BDD1A5A2287C9DCF008B69E0 /* Resources */,
+				6E92A7495057CD3BEA3C3C38 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -111,8 +138,6 @@
 				Base,
 			);
 			mainGroup = BDD1A59B287C9DCF008B69E0;
-			packageReferences = (
-			);
 			productRefGroup = BDD1A5A5287C9DCF008B69E0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -134,6 +159,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A75190453F3A929A4F9E19E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KeychanExemple-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E92A7495057CD3BEA3C3C38 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KeychanExemple/Pods-KeychanExemple-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KeychanExemple/Pods-KeychanExemple-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KeychanExemple/Pods-KeychanExemple-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BDD1A5A0287C9DCF008B69E0 /* Sources */ = {
@@ -286,6 +353,7 @@
 		};
 		BDD1A5B9287C9DD1008B69E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAC9EFAD7D1DE6C8DCF52C3B /* Pods-KeychanExemple.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -314,6 +382,7 @@
 		};
 		BDD1A5BA287C9DD1008B69E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC4F9A0AD912857E6671A4DC /* Pods-KeychanExemple.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
